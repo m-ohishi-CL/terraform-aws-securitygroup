@@ -14,6 +14,9 @@ variable "cluster_rpc_port" {
 variable "lan_serf" {
   default = "8301"
 }
+variable "wan_serf" {
+  default = "8302"
+}
 variable "cidr_blocks" {
   type     = list(string)
   default = ["0.0.0.0/0"]
